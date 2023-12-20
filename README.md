@@ -1,21 +1,82 @@
-# donation-campaign-assignment
+# Donation Campaign Website
 
-## Questions
+### Live Link: https://donation-campaign-by-mohiudddin.netlify.app/
 
-Add Readme.md file and will have the following:
+## Description
 
-- Add at least 3 Project features
+This project is a donation campaign website aimed at facilitating easy donations, tracking donation history, and providing insights through donation analytics. Users can interact with the site to contribute and view their donation records while analyzing donation trends.
 
-## Answer :
+## Features
 
-### Features - 1:
+### 1. Donation Process
 
-anyone can donate with this website . when anyone click on any cards go to donation details page and see the donation money and if click on price/money button successful the donation with confirmation toast/massage alert.
+- **Donation Interface:** Users can select donation options presented as cards, which redirect them to the donation details page.
+- **Donation Details:** Users can view donation amounts and complete the donation process by clicking the price/money button, prompting a confirmation toast/alert.
 
-### Features - 2:
+### 2. Donation History
 
-anyone can see the detail how much donate he did! , go to donation page and see the cards how donated.
+- **User Donation Records:** Users can access their personal donation history on the donation page, displaying individual cards for each previous donation.
 
-### Features - 3:
+### 3. Donation Analytics
 
-anyone can see the donation analytics. if you go to statistics page than you will see the donation analytics. how you hade donated and how much donation have for donate.
+- **Statistics Overview:** The statistics page offers comprehensive donation analytics, showcasing individual user donation amounts and the overall donation aggregate.
+
+## Technology Stack
+- **Tailwind CSS**
+- **React:** v18.2.0
+- **React Router DOM:** v6.16.0
+- **React Google Charts:** v4.0.1
+- **React Toastify:** v9.1.3
+- **Prop Types:** v15.8.1
+
+
+## Installation
+
+To run the project locally:
+
+1. **Clone the repository:**
+    ```
+    git clone https://github.com/mohiqudraty/donation-campaign.git
+    ```
+
+2. **Navigate to the project directory:**
+    ```
+    cd donation-campaign
+    ```
+
+3. **Install dependencies:**
+    ```
+    npm install
+    ```
+
+4. **Start the development server:**
+    ```
+    npm start
+    ```
+
+## How to Use
+
+- Access the donation website.
+- Explore donation options and navigate to the donation details page.
+- View personal donation history on the donation page.
+- Access comprehensive donation analytics on the statistics page.
+
+## Contribution
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create your branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Submit a pull request.
+
+
+## Contact
+
+For inquiries or collaboration opportunities, contact:
+- Email: mohi.qudraty@gmail.com
+- LinkedIn: https://www.linkedin.com/in/mohiuddin-qudraty/
+
+Feel free to explore and contribute to this project!
+
